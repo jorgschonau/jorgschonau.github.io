@@ -4,7 +4,7 @@ Here you will soon find my final project for Ubiqum Code Academy and many more f
 
 
 
-[About me](about.md) 1
+
 
 [Sentiment Project](sentiments.html)
 
