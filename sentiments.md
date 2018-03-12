@@ -7,7 +7,7 @@ For my final project at Ubiqum Code Academy I analysed a number of classic liter
 - Charlie and the Chocolate Factory by Roald Dahl 
 - Hitchhiker's Guide to the Galaxy by Douglas Adams
 
-I then visualized the results with Tableau. You'll find some examples here.
+I then visualized the results with Tableau. You'll find the link for some examples further below.
 
 ## The Project
 
@@ -19,6 +19,6 @@ In the ned I decided to use the NRC dictionary. Mostly because it is the most ex
 
 ## Visualisations
 
-THe main part of the project was actually producing visulisations using Tableau, so without further ado, here they are:
+The main part of the project was actually producing visulisations using Tableau, so without further ado, here they are:
 
 [Visualisations](sentiments_multiple.html)
