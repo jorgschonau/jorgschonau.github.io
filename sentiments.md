@@ -15,7 +15,7 @@ I'll explain here more about the project, so text analysis, the dictionaries I u
 
 But bascially I wanted to see how far you can use standard dictionaries within R (NRC, Bing, AFINN & SentimentR) to analyse content (in this case books) and in how far the results differ.
 
-In the ned I decided to use the NRC dictionary. Mostly because it is the most extensive one and seemed to produce some good insights. Also the sentence based package SentimentR produced some good results (the other dictionaries evalute on a word-by-word basis), some analyses showed surprising similarities with the ones generated with NRC. At a later stage I might compare both in more details (provided that I will ever have enough time at my hands). 
+In the ned I decided to use the NRC dictionary. Mostly because it is the most extensive one and seemed to produce some good insights. Also the sentence based package SentimentR produced some good results (the other dictionaries evalute on a word-by-word basis), some analyses showed surprising similarities with the ones generated with NRC. At a later stage I might compare both in more detail (provided that I will ever have enough time at my hands). 
 
 ## Visualisations
 
