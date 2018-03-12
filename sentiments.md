@@ -10,8 +10,8 @@ Below the detailed view of the sentiments using the NRC dictionary. Use the menu
 
 ## Visualisations
 
-THe main part of the project were actually the visulisations, so without further ado, here they are>:
+THe main part of the project were actually the visulisations, so without further ado, here they are:
 
-[Visulisations](sentiments_multiple.html)
+[Visualisations](sentiments_multiple.html)
 
 
