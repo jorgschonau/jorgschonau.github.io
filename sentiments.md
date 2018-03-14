@@ -1,6 +1,6 @@
 # Sentiment Analysis
 
-For my final project at Ubiqum Code Academy [link](https://goo.gl/aEmoTQ) I analysed a number of classic literature books, namely:
+For my final project at [Ubiqum Code Academy](https://goo.gl/aEmoTQ) I analysed a number of classic literature books, namely:
 
 - 1984 by George Orwell
 - Crime and Punishment by Fyodor Dostoevsky
