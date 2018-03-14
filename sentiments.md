@@ -15,7 +15,7 @@ The sentiment analyses mainly involved firstly preparing the date importing text
 
 I'll explain here more about the details of the project, so text/ sentiment analysis, the dictionaries I used etc. But bascially I wanted to see how far one can use the standard dictionaries within R (NRC, Bing, AFINN & SentimentR) to analyse content (in this case books) and in how far the results differ.
 
-In the end I decided to use the NRC dictionary for the detailed analysis. Mostly because it is the most extensive one and it produced overall most insightful information. The sentence based package SentimentR (the other dictionaries work on a word-by-word basis) produced also some good results, I noticed overall some surprising similarities with the ones generated with NRC. At a later stage I might compare both in more detail (depending on how much time I will on my hands hands). 
+In the end I decided to use the NRC dictionary for the detailed analysis. Mostly because it is the most extensive one and it produced overall most insightful information. The sentence based package SentimentR (the other dictionaries work on a word-by-word basis) produced also some good results, I noticed overall some surprising similarities with the ones generated with NRC. At a later stage I might compare both in more detail (depending on how much time I will have on my hands hands). 
 
 ## Visualisations
 
