@@ -27,4 +27,4 @@ Producing visualisations with Tableau made up a considerable part of the project
 
 For more details about the actual text analysis
 
-[Methodology](Methodology.md)
+[Methodology](methodology.md)
