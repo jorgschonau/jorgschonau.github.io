@@ -7,7 +7,7 @@ For my final project at [Ubiqum Code Academy](https://goo.gl/aEmoTQ) I analysed 
 - [Charlie and the Chocolate Factory by Roald Dahl](https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory)
 - [Hitchhiker's Guide to the Galaxy by Douglas Adams](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy)
 
-You'll find a number of visulations based on the data under the link further below.
+You'll find a number of visualisations based on the output data under the link further below.
 
 ## The Project
 
