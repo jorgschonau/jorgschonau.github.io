@@ -13,20 +13,57 @@ Some examples of applications for sentiment analysis include:
 In nutshell, what happens during a sentiment analysis is that you match a dictionary cotaining range of words classified as positive or negtive against a text of your choice (or an entire text collection, also known as corpus). 
 Let's take the first sentence of the book 1984 as an example to illustrate:
 
-*It was a bright cold day in April, and the clocks were striking thirteen.*
+*It was a bright cold day in April, and the clocks were striking
+thirteen. Winston Smith, his chin nuzzled into his
+breast in an effort to escape the vile wind, slipped quickly
+through the glass doors of Victory Mansions, though not
+quickly enough to prevent a swirl of gritty dust from entering
+along with him.*
 
 The NRC dictionary (more about this later) would evaluate this sentence like following:
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Word          | Sentiment     |
+| ------------- |:-------------:|
+| cold          | -1            |
+| striking      |  1            |
+| effort        |  1            |
+| dust          | -1            |
+
+So the total sum for this paragraph in terms of sentiments would be 0 - compeltely neutral. Let's have alook another ztext, this time first paragraph in Crime & Punishment:
+
+*On an exceptionally hot evening early in July a young
+man came out of the garret in which he lodged in S. Place
+and walked slowly, as though in hesitation, towards K.
+bridge.
+He had successfully avoided meeting his landlady on
+the staircase. His garret was under the roof of a high, fivestoried
+house and was more like a cupboard than a room.
+The landlady who provided him with garret, dinners, and
+attendance, lived on the floor below, and every time he
+went out he was obliged to pass her kitchen, the door of
+which invariably stood open. And each time he passed, the
+young man had a sick, frightened feeling, which made him
+scowl and feel ashamed. He was hopelessly in debt to his
+landlady, and was afraid of meeting her.*
+
+| Word          | Sentiment     |
+| ------------- |:-------------:|
+| cold          | -1            |
+| striking      |  1            |
+| effort        |  1            |
+| dust          | -1            |
+| dust          | -1            |
+| dust          | -1            |
+| dust          | -1            |
+| dust          | -1            |
+| dust          | -1            |
 
 
-Sentiment analysis is not perfect, and as with any automatic analysis of language, you will have errors in your results. It also cannot tell you why a writer is feeling a certain way. However, it can be useful to quickly summarize some qualities of text, especially if you have so much text that a human reader cannot analyze all of it.
 
-The sentiment analyses mainly involved firstly preparing the date importing text files, cleaning the data and re-arranging it into suitable formats. The second step was to a) choosing dictionary as basis for the sentiment analyses and b) re-arranging the output data so that it Tableau could understand it. 
+
+
+As we can see, sentiment analysis is not perfect, and as with any automatic analysis of language, you will have errors in your results. It cannot tell you why a writer is feeling a certain way and it also fails to pick up irony, humour etc. However, it can be useful to quickly summarize some qualities of text, especially if you have so much text that a human reader cannot analyze all of it.
+
 
 ## Crime & Sentiment
 I'll explain here more about the details of the project, so text/ sentiment analysis, the dictionaries I used etc. But bascially I wanted to see how far one can use the standard dictionaries within R (NRC, Bing, AFINN & SentimentR) to analyse content (in this case books) and in how far the results differ.
