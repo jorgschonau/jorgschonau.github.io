@@ -13,12 +13,12 @@ Some examples of applications for sentiment analysis include:
 In nutshell, what happens during a sentiment analysis is that you match a dictionary cotaining range of words classified as positive or negtive against a text of your choice (or an entire text collection, also known as corpus). 
 Let's take the first sentence of the book 1984 as an example to illustrate:
 
-*It was a bright cold day in April, and the clocks were striking
+⋅⋅⋅*It was a bright cold day in April, and the clocks were striking
 thirteen. Winston Smith, his chin nuzzled into his
 breast in an effort to escape the vile wind, slipped quickly
 through the glass doors of Victory Mansions, though not
 quickly enough to prevent a swirl of gritty dust from entering
-along with him.*
+along with him.*⋅⋅⋅
 
 The NRC dictionary (more about this later) would evaluate this sentence like following:
 
@@ -32,7 +32,7 @@ The NRC dictionary (more about this later) would evaluate this sentence like fol
 
 So the total sum for this paragraph in terms of sentiments would be 0 - completely neutral. Let's have a look at another piece of text, this time the first paragraph in Crime & Punishment:
 
-*On an exceptionally hot evening early in July a young
+⋅⋅⋅*On an exceptionally hot evening early in July a young
 man came out of the garret in which he lodged in S. Place
 and walked slowly, as though in hesitation, towards K.
 bridge.
@@ -45,7 +45,7 @@ went out he was obliged to pass her kitchen, the door of
 which invariably stood open. And each time he passed, the
 young man had a sick, frightened feeling, which made him
 scowl and feel ashamed. He was hopelessly in debt to his
-landlady, and was afraid of meeting her.*
+landlady, and was afraid of meeting her.*⋅⋅⋅
 
 | Word          | Sentiment     |
 | ------------- |:-------------:|
