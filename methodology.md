@@ -10,8 +10,8 @@ Some examples of applications for sentiment analysis include:
 - Determining whether product reviews (for example on Amazon) are positive or negative
 - Evaluating opions expressed in newspaper articles regarding certain topics or persons
 
-In nutshell, what happens during a sentiment analysis is that you match a dictionary containing range of words classified as positive or negtive against a text of your choice (or an entire text collection, also known as corpus). 
-Let's take the first sentence of the book 1984 as an example to illustrate:
+In nutshell, what happens during a sentiment analysis is that you match a dictionary containing a range of words classified as positive or negtive against a text of your choice (or an entire text collection, also known as corpus). 
+To illustrate, let's take the first sentence of the book 1984 as an example:
 
 >It was a bright cold day in April, and the clocks were striking
 >thirteen. Winston Smith, his chin nuzzled into his
@@ -60,9 +60,11 @@ The NRC dictionary evaluate this text like following:
 | debt          | -1            |
 | afraid        | -1            |
 
-That's more like it - a total score of -7 which does match with the atmosphere Dostojewski builds up so matserfully right from the start.
+That's more like it - a total score of -7 which does match with the atmosphere of doom & gloom Dostojewski builds up so masterfully right from the start.
 
-As we can see, sentiment analysis is far from being perfect and the word-by-word approach might seem crude. As with any automatic analysis of language, there are bound to be errors in your results. It cannot tell you why a writer is feeling a certain way and it also fails to pick up irony, humour etc. Nevertheless, it can be useful to quickly summarize some qualities of text, especially if you have so much text (think 10.000 web pages or more) that it would be impossible for a human reader analyze all of it within a reasonable time.
+As we can see, sentiment analysis is far from being perfect and the word-by-word approach might seem crude. As with any automatic analysis of language, there are bound to be errors in your results. It cannot tell you why a writer is feeling a certain way and it also fails to pick up irony, humour etc. A big problem of the dictionary based, word-by-word evaluation is that it fails to consider negations. So a sentence like "I am having a great day" would recive the same score as "I am not having a great day".  
+
+Despite these shortcomings, sentiments analysis can be useful to quickly summarize some qualities of text, especially if you have so much text (think thousands and tens of thousand web pages or more) that it would be impossible for a human reader analyze all of it within a reasonable time.
 
 ## Crime & Sentiment
 I'll explain here more about the details of the project, so text/ sentiment analysis, the dictionaries I used etc. But bascially I wanted to see how far one can use the standard dictionaries within R (NRC, Bing, AFINN & SentimentR) to analyse content (in this case books) and in how far the results differ.
