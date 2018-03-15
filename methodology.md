@@ -10,7 +10,7 @@ Some examples of applications for sentiment analysis include:
 - Determining whether product reviews (for example on Amazon) are positive or negative
 - Evaluating opions expressed in newspaper articles regarding certain topics or persons
 
-In nutshell, what happens during a sentiment analysis is that you match a dictionary cotaining range of words classified as positive or negtive against a text of your choice (or an entire text collection, also known as corpus). 
+In nutshell, what happens during a sentiment analysis is that you match a dictionary containing range of words classified as positive or negtive against a text of your choice (or an entire text collection, also known as corpus). 
 Let's take the first sentence of the book 1984 as an example to illustrate:
 
 >It was a bright cold day in April, and the clocks were striking
