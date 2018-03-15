@@ -29,7 +29,8 @@ The NRC dictionary (more about this later) would evaluate this sentence like fol
 | effort        |  1            |
 | dust          | -1            |
 
-So the total sum for this paragraph in terms of sentiments would be 0 - compeltely neutral. Let's have alook another ztext, this time first paragraph in Crime & Punishment:
+
+So the total sum for this paragraph in terms of sentiments would be 0 - completely neutral. Let's have a look at another piece of text, this time the first paragraph in Crime & Punishment:
 
 *On an exceptionally hot evening early in July a young
 man came out of the garret in which he lodged in S. Place
@@ -48,22 +49,18 @@ landlady, and was afraid of meeting her.*
 
 | Word          | Sentiment     |
 | ------------- |:-------------:|
-| cold          | -1            |
-| striking      |  1            |
-| effort        |  1            |
-| dust          | -1            |
-| dust          | -1            |
-| dust          | -1            |
-| dust          | -1            |
-| dust          | -1            |
-| dust          | -1            |
+| hesitation    | -1            |
+| invariably    |  1            |
+| sick          | -1            |
+| frightened    | -1            |
+| ashamed       | -1            |
+| hopeless      | -1            |
+| debt          | -1            |
+| afraid        | -1            |
 
+That's more like it - a total score of -7 which does match with the atmosphere Dostojewski builds up so matserfully right from the start.
 
-
-
-
-As we can see, sentiment analysis is not perfect, and as with any automatic analysis of language, you will have errors in your results. It cannot tell you why a writer is feeling a certain way and it also fails to pick up irony, humour etc. However, it can be useful to quickly summarize some qualities of text, especially if you have so much text that a human reader cannot analyze all of it.
-
+As we can see, sentiment analysis is far from being perfect and the word-by-word approach might seem crude. As with any automatic analysis of language, there are bound to be errors in your results. It cannot tell you why a writer is feeling a certain way and it also fails to pick up irony, humour etc. Nevertheless, it can be useful to quickly summarize some qualities of text, especially if you have so much text (think 10.000 web pages or more) that it would be impossible for a human reader analyze all of it within a reasonable time.
 
 ## Crime & Sentiment
 I'll explain here more about the details of the project, so text/ sentiment analysis, the dictionaries I used etc. But bascially I wanted to see how far one can use the standard dictionaries within R (NRC, Bing, AFINN & SentimentR) to analyse content (in this case books) and in how far the results differ.
