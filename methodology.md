@@ -45,7 +45,9 @@ So the total sum for this paragraph in terms of sentiments would be 0 - complete
 >which invariably stood open. And each time he passed, the
 >young man had a sick, frightened feeling, which made him
 >scowl and feel ashamed. He was hopelessly in debt to his
->landlady, and was afraid of meeting her.⋅⋅⋅
+>landlady, and was afraid of meeting her.
+
+The NRC dictionary evaluate this text like following:
 
 | Word          | Sentiment     |
 | ------------- |:-------------:|
