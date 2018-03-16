@@ -10,7 +10,7 @@ Some examples of applications for sentiment analysis include:
 - Determining whether product reviews (for example on Amazon) are positive or negative
 - Evaluating opions expressed in newspaper articles regarding certain topics or persons
 
-In nutshell, what happens during a sentiment analysis is that you match a dictionary containing a range of words (for instance, the NRC dictionary has 13901 entries) classified as positive or negative against a text of your choice. 
+In nutshell, what happens during a sentiment analysis is that a dictionary containing a range of words (for instance, the NRC dictionary has 13901 entries) classified as positive or negative is being matched against a text of your choice. 
 To illustrate, let's take the first sentence of the book 1984 as an example:
 
 >It was a bright cold day in April, and the clocks were striking
@@ -30,7 +30,7 @@ The NRC dictionary (more about this later) would evaluate this sentence like fol
 | dust          | -1            |
 
 
-So the total sum for this paragraph in terms of sentiments would be 0 - completely neutral. Let's have a look at another piece of text, this time the first paragraph in Crime & Punishment:
+So the total sum for this particular paragraph in terms of sentiments would be 0 - completely neutral. Let's have a look at another piece of text, this time the first paragraph in Crime & Punishment:
 
 >On an exceptionally hot evening early in July a young
 >man came out of the garret in which he lodged in S. Place
