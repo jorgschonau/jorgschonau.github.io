@@ -11,11 +11,9 @@ You'll find a number of visualisations based on the output data under the link f
 
 ## The Project
 
-The sentiment analyses mainly involved firstly preparing the date importing text files, cleaning the data and re-arranging it into suitable formats. The second step was to a) choosing dictionary as basis for the sentiment analyses and b) re-arranging the output data so that it Tableau could understand it. 
+Sentiment analyses is one of the standard methods for analysing any kinds of texts with R. Typical applications for text analysis are for example analysing tweets, evaluating user reviews (e.g. on Amazon) or gathering what newspapers are saying on specific topics.
 
-I'll explain here more about the details of the project, so text/ sentiment analysis, the dictionaries I used etc. But bascially I wanted to see how far one can use the standard dictionaries within R (NRC, Bing, AFINN & SentimentR) to analyse content (in this case books) and in how far the results differ.
-
-In the end I decided to use the NRC dictionary for the detailed analysis. Mostly because it is the most extensive one and it produced overall most insightful information. The sentence based package SentimentR (the other dictionaries work on a word-by-word basis) produced also some good results, I noticed overall some surprising similarities with the ones generated with NRC. At a later stage I might compare both in more detail (depending on how much time I will have on my hands hands). 
+I'll explain here more about the details of the project, the dictionaries I used etc. But bascially I wanted to see how far one can use the standard dictionaries within R (NRC, Bing, AFINN & SentimentR) to analyse content (in this a number of well known books) and in how far the results differ.
 
 ## Visualisations
 
