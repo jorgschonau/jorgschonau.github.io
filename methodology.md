@@ -1,4 +1,6 @@
 # Methodology
+
+## Crime and Sentiment
 Below I'll elaborate more about the sentiment analysis project, the steps I've done, problems I encountered and any learnings. 
 
 ## What are actually sentiments?
