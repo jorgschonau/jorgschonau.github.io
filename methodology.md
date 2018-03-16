@@ -60,9 +60,9 @@ The NRC dictionary evaluates the text above like following:
 | debt          | -1            |
 | afraid        | -1            |
 
-That's more like it - a total score of -7 which does match with the atmosphere of doom & gloom Dostojewski builds up so masterfully right from the start.
+That's more like it - 8x negative vs 1x positive, so a total score of -7 does match with the atmosphere of doom & gloom Dostojewski builds up so masterfully right from the start.
 
-As we can see, sentiment analysis is far from being perfect and the word-by-word approach might seem crude. As with any automatic analysis of language, there are bound to be errors in your results. It cannot tell you why a writer is feeling a certain way and it also fails to pick up irony, humour etc. A big problem of the dictionary based, word-by-word evaluation is that it fails to consider negations. So a sentence like "I am having a great day" would receive the same score as "I am not having a great day".  
+As you might already suspect, sentiment analysis is far from being perfect and the word-by-word approach is indeed somewhat crude. As with any automatic analysis of language, there are bound to be errors in the results. It also can't tell you why a writer is feeling a certain way and it also fails to pick up irony, humour etc. Another big problem of the dictionary based, word-by-word evaluation is that it fails to consider negations. So a sentence like "I am having a great day" would receive the same score as "I am __not__ having a great day".  
 
 Despite these shortcomings, sentiments analysis can be useful to quickly summarize some qualities of text, especially if you have so much text (think thousands and tens of thousand web pages or more) that it would be impossible for a human reader analyze all of it within a reasonable time.
 
