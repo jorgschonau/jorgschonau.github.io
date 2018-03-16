@@ -47,7 +47,7 @@ So the total sum for this paragraph in terms of sentiments would be 0 - complete
 >scowl and feel ashamed. He was hopelessly in debt to his
 >landlady, and was afraid of meeting her.
 
-The NRC dictionary evaluate this text like following:
+The NRC dictionary evaluates the text above like following:
 
 | Word          | Sentiment     |
 | ------------- |:-------------:|
