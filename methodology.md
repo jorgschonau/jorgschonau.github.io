@@ -2,7 +2,7 @@
 Below I'll elaborate more about the sentiment analysis project, the steps I've done, problems I encountered and any learnings. 
 
 ## What are actually sentiments?
-Sentiment detection (or sentiment analysis) is a sub area of text mining and referes to the automatic evaluation of texts with the objective of detecting whether opinions/ feelings expressed within a text are positive or negative. Even though sentiment is often framed as binary distinction (so positive vs. negative), it can be more fine grained. For example it is also possible to try and indentify the specific emotions within a text (such as fear, joy, trust or sadness).
+Sentiment detection (or sentiment analysis) is a sub area of text mining and referes to the automatic evaluation of texts with the objective of detecting whether opinions/ feelings expressed within a text are positive or negative. Even though sentiment is often framed as binary distinction (so positive vs. negative), it can be more fine grained. For example it is also possible to try and identify the specific emotions within a text (for example fear, joy, trust or sadness).
 
 Some examples of applications for sentiment analysis include:
 
@@ -10,7 +10,7 @@ Some examples of applications for sentiment analysis include:
 - Determining whether product reviews (for example on Amazon) are positive or negative
 - Evaluating opions expressed in newspaper articles regarding certain topics or persons
 
-In nutshell, what happens during a sentiment analysis is that you match a dictionary containing a range of words classified as positive or negtive against a text of your choice (or an entire text collection, also known as corpus). 
+In nutshell, what happens during a sentiment analysis is that you match a dictionary containing a range of words classified as positive or negative against a text of your choice (or an entire text collection, also known as corpus). 
 To illustrate, let's take the first sentence of the book 1984 as an example:
 
 >It was a bright cold day in April, and the clocks were striking
@@ -62,7 +62,7 @@ The NRC dictionary evaluate this text like following:
 
 That's more like it - a total score of -7 which does match with the atmosphere of doom & gloom Dostojewski builds up so masterfully right from the start.
 
-As we can see, sentiment analysis is far from being perfect and the word-by-word approach might seem crude. As with any automatic analysis of language, there are bound to be errors in your results. It cannot tell you why a writer is feeling a certain way and it also fails to pick up irony, humour etc. A big problem of the dictionary based, word-by-word evaluation is that it fails to consider negations. So a sentence like "I am having a great day" would recive the same score as "I am not having a great day".  
+As we can see, sentiment analysis is far from being perfect and the word-by-word approach might seem crude. As with any automatic analysis of language, there are bound to be errors in your results. It cannot tell you why a writer is feeling a certain way and it also fails to pick up irony, humour etc. A big problem of the dictionary based, word-by-word evaluation is that it fails to consider negations. So a sentence like "I am having a great day" would receive the same score as "I am not having a great day".  
 
 Despite these shortcomings, sentiments analysis can be useful to quickly summarize some qualities of text, especially if you have so much text (think thousands and tens of thousand web pages or more) that it would be impossible for a human reader analyze all of it within a reasonable time.
 
