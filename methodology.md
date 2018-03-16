@@ -4,7 +4,7 @@
 Below I'll elaborate more about the sentiment analysis project, the steps I've done, problems I encountered and any learnings. 
 
 ## What are actually sentiments?
-Sentiment detection (or sentiment analysis) is a sub area of text mining and referes to the automatic evaluation of texts with the objective of detecting whether opinions/ feelings expressed within a text are positive or negative. Even though sentiment is often framed as binary distinction (so positive vs. negative), it can be more fine grained. For example it is also possible to try and identify the specific emotions within a text (for example fear, joy, trust or sadness).
+Sentiment detection (or sentiment analysis) is a sub area of text mining and refers to the automatic evaluation of texts with the objective of detecting whether opinions/ feelings expressed within a text are positive or negative. Even though sentiment is often framed as binary distinction (so positive vs. negative), it can be more fine grained. For example it is also possible to try and identify the specific emotions within a text (for example fear, joy, trust or sadness).
 
 Some examples of applications for sentiment analysis include:
 
