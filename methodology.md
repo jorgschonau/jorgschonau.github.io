@@ -73,7 +73,8 @@ Despite these shortcomings, sentiments analysis can be useful to quickly summari
 
 ### Defining Packages
 
-```library(tidyverse)
+```
+library(tidyverse)
 library(readr)
 library(reshape2)
 library(stringr)
@@ -93,7 +94,8 @@ library(igraph)
 library(ggraph)
 library(viridis)
 library(zoo)
-library(tokenizers)```
+library(tokenizers)
+```
 
 
 
