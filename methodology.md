@@ -72,6 +72,7 @@ Despite these shortcomings, sentiments analysis can be useful to quickly summari
 ## Preparations
 
 ### Defining Packages
+Below the packages I used for this project:
 
 ```
 library(tidyverse)
