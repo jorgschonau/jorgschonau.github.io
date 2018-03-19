@@ -104,7 +104,6 @@ Some books I found directly in a txt format on [Project Gutenberg](http://www.gu
 
 ```
 # loading text file 
-
 charlieandthechocolatefactory_raw <- read_lines("charlieandthechocolatefactory.txt") # read txt file
 ```
 
@@ -126,7 +125,7 @@ charlieandthechocolatefactory <- charlieandthechocolatefactory_df %>%
  - replace_contraction (part of textclean package): Replacing contractions such as "can't", didn't", "won't" by the full form ("can not", "did not", "will not")
  - strwrap part of base R): wrapping character strings to format paragraphs after a given length of characters
 
-Below the function:
+Below the cleanup function:
 
 ```
 cleanup <- function(x) {
@@ -136,5 +135,6 @@ cleanup <- function(x) {
   result <- replace_contraction(result)
   result <- strwrap(result, width = 72)
   return(result)
-}```
+}
+```
 
