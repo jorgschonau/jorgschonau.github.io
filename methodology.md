@@ -107,7 +107,7 @@ Some books I found directly in a txt format on [Project Gutenberg](http://www.gu
 charlieandthechocolatefactory_raw <- read_lines("charlieandthechocolatefactory.txt") # read txt file
 ```
 
-I then converted the raw text into the tidy text format. Basically it's a table with one token (or meaningful word) per row. 
+I then converted the raw text into the tidy text format. Basically it's a table with one token (or meaningful word) per row. This requires follwing steps: 
 
 ```
 # cleaning & converting into tidytext
@@ -137,4 +137,12 @@ cleanup <- function(x) {
   return(result)
 }
 ```
+
+The cleaned up text is then stripped off all stopwords (stop_words is part of the Tidytext package and is a collection from 3 dictionaries) and transformed into the one-token-per-row Tidytext format:
+
+```tidy_orwell1984 <- orwell1984 %>%
+ unnest_tokens(word, text) %>%
+ anti_join(stop_words)
+```
+In hindsight, using the entire stop_words list seems to be somewhat agressive. It contains words that also carry sentiments, such as "interesting" or "young". If I was to start a similar project again, I would probably sub set the stop_words and only use 1 or 2 of the dictionaries.
 
