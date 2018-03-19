@@ -100,19 +100,33 @@ library(tokenizers)
 
 ## Importing & Cleaning Text Files
 
-Some books I found directly in a txt format on [Project Gutenberg](http://www.gutenberg.org/). For others I found the PDF file online and sinpley copy & pasted the text into an editor and saved the file as .txt.
+Some books I found directly in a txt format on [Project Gutenberg](http://www.gutenberg.org/). For others I found the PDF file online and simply copied & pasted the text into an editor and saved the file as .txt.
 
 ```
 # loading text file 
 
 charlieandthechocolatefactory_raw <- read_lines("charlieandthechocolatefactory.txt") # read txt file
+```
 
+I then converted the raw text into the tidy text format. Basically it's a table with one token (or meaningful word) per row. 
+
+```
 # cleaning & converting into tidytext
 charlieandthechocolatefactory_clean <- cleanup(charlieandthechocolatefactory_raw)
 charlieandthechocolatefactory_df <- data_frame(line = 1:2518,text = charlieandthechocolatefactory_clean)
-charlieandthechocolatefactory <- charlieandthechocolatefactory_df %>% mutate(linenumber = row_number(),
-                                                                             chapter = cumsum(str_detect(text,            regex("^chapter [\\divxlc]", ignore_case = TRUE))))
+charlieandthechocolatefactory <- charlieandthechocolatefactory_df %>%
+            mutate(linenumber = row_number(), chapter = cumsum(str_detect(text, regex("^chapter [\\divxlc]", 
+            ignore_case = TRUE))))
 ```
+
+"Cleanup" is a function I wrote that simply combines a number of steps for cleaning up the text and getting it into a standard format. These steps are:
+
+ - tolower (part of base R): all characters into lower case
+ - replace_word_elongation (part of textclean package): Replacing elongations like: "I said heyyy!', "Wwwhhatttt!", or "Nooooooooo!"
+ - replace_contraction (part of textclean package): Replacing contractions such as "can't", didn't", "won't" by the full form ("can not", "did not", "will not")
+ - strwrap part of base R): wrapping character strings to format paragraphs after a given length of characters
+
+Below the function:
 
 ```
 cleanup <- function(x) {
