@@ -138,21 +138,21 @@ cleanup <- function(x) {
 }
 ```
 
-The cleaned up text is then stripped off all stopwords (stop_words is part of the Tidytext package and is a collection from 3 dictionaries) and transformed into the one-token-per-row Tidytext format:
+The cleaned up text is then stripped off all stopwords (stop_words is part of the Tidytext package and is a collection of 3 dictionaries) and transformed into the one-token-per-row Tidytext format:
 
 ```tidy_orwell1984 <- orwell1984 %>%
  unnest_tokens(word, text) %>%
  anti_join(stop_words)
 ```
-In hindsight, using the entire stop_words list seems to be somewhat agressive. It contains words that also carry sentiments, such as "interesting" or "young". If I was to start a similar project again, I would probably sub set the stop_words and only use 1 or 2 of the dictionaries.
+In hindsight, using the entire stop_words list seems to be somewhat agressive. As a consequence, words that carry sentiments, such as "interesting" or "young", are being excluded. If I was to start a similar project again, I would probably sub set the stop_words and only use 1 or 2 of the dictionaries.
 
-## Tidy text format
+## Tidytext Format
 
-The first two sentences of Charlie and the Chocolate factory.
+So after executing the steps above, the text will be transformed into a token based dataframe and all stopwords are removed. To illustrate, the first two sentences of Charlie and the Chocolate factory:
 
 >These two very old people are the father and mother of Mr Bucket. Their names are Grandpa Joe and Grandma Josephine.
 
-turns into:
+are being transformed this format:
 
 | Line Number  | Chapter     | Word      |
 |-------------:|:-----------:|:---------:|
@@ -167,5 +167,5 @@ turns into:
 |  7           | 1           | josephine |
 
 
-
+NEXT
 
