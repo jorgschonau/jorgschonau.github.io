@@ -146,3 +146,26 @@ The cleaned up text is then stripped off all stopwords (stop_words is part of th
 ```
 In hindsight, using the entire stop_words list seems to be somewhat agressive. It contains words that also carry sentiments, such as "interesting" or "young". If I was to start a similar project again, I would probably sub set the stop_words and only use 1 or 2 of the dictionaries.
 
+## Tidy text format
+
+The first two sentences of Charlie and the Chocolate factory.
+
+>These two very old people are the father and mother of Mr Bucket. Their names are Grandpa Joe and Grandma Josephine.
+
+turns into:
+
+| Line Number  | Chapter     | Word      |
+|-------------:|:-----------:|:---------:|
+|  5           | 1           | people    |
+|  5           | 1           | father    |
+|  6           | 1           | mother    |
+|  6           | 1           | bucket    |
+|  6           | 1           | names     |
+|  6           | 1           | grandpa   |
+|  6           | 1           | joe       |  
+|  6           | 1           | grandma   |
+|  7           | 1           | josephine |
+
+
+
+
