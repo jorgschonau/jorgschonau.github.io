@@ -100,7 +100,7 @@ library(tokenizers)
 
 ## Importing & Cleaning Text Files
 
-Some books I found directly in a txt format on [Project Gutenberg](http://www.gutenberg.org/). For others I found the PDF file online and simply copied & pasted the text into an editor and saved the file as .txt.
+Some books I found directly in a txt format on [Project Gutenberg](http://www.gutenberg.org/). For others I had to find the PDF files somehwere online and then simply copied & pasted the text into an editor and saved the file as .txt.
 
 ```
 # loading text file 
