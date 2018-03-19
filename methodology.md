@@ -98,10 +98,29 @@ library(zoo)
 library(tokenizers)
 ```
 
+## Importing & Cleaning Text Files
 
+Some books I found directly in a txt format on [Project Gutenberg](http://www.gutenberg.org/). For others I found the PDF file online and sinpley copy & pasted the text into an editor and saved the file as .txt.
 
-I'll explain here more about the details of the project, so text/ sentiment analysis, the dictionaries I used etc. But bascially I wanted to see how far one can use the standard dictionaries within R (NRC, Bing, AFINN & SentimentR) to analyse content (in this case books) and in how far the results differ.
+```
+# loading text file 
 
-I'll also provide the link to the github repo (first I need to clean up the code though)
+charlieandthechocolatefactory_raw <- read_lines("charlieandthechocolatefactory.txt") # read txt file
 
+# cleaning & converting into tidytext
+charlieandthechocolatefactory_clean <- cleanup(charlieandthechocolatefactory_raw)
+charlieandthechocolatefactory_df <- data_frame(line = 1:2518,text = charlieandthechocolatefactory_clean)
+charlieandthechocolatefactory <- charlieandthechocolatefactory_df %>% mutate(linenumber = row_number(),
+                                                                             chapter = cumsum(str_detect(text,            regex("^chapter [\\divxlc]", ignore_case = TRUE))))
+```
+
+```
+cleanup <- function(x) {
+  library(textclean)
+  result <- tolower(x)
+  result <- replace_word_elongation(result)
+  result <- replace_contraction(result)
+  result <- strwrap(result, width = 72)
+  return(result)
+}```
 
