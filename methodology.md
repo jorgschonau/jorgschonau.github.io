@@ -68,7 +68,37 @@ As you might already suspect, sentiment analysis is far from being perfect and t
 
 Despite these shortcomings, sentiments analysis can be useful to quickly summarize some qualities of text, especially if you have large volumes of text (think thousands and tens of thousand web pages or more) that it would be impossible for a human reader to analyze all of it within a reasonable time.
 
-## Crime & Sentiment
+
+## Preparations
+
+### Defining Packages
+
+'''library(tidyverse)
+library(readr)
+library(reshape2)
+library(stringr)
+library(syuzhet)
+library(viridis)
+library(SentimentAnalysis)
+library(RSentiment)
+library(sentimentr)
+library(tidytext)
+library(tm)
+library(SnowballC)
+library(wordcloud)
+library(RColorBrewer)
+library(textclean)
+library(widyr)
+library(igraph)
+library(ggraph)
+library(viridis)
+library(zoo)
+library(tokenizers)'''
+
+
+
 I'll explain here more about the details of the project, so text/ sentiment analysis, the dictionaries I used etc. But bascially I wanted to see how far one can use the standard dictionaries within R (NRC, Bing, AFINN & SentimentR) to analyse content (in this case books) and in how far the results differ.
 
 I'll also provide the link to the github repo (first I need to clean up the code though)
+
+
