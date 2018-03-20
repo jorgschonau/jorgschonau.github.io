@@ -4,4 +4,4 @@ I'll put here more info about my good self. One thing you might have not known a
 
 Other than that, my [Linkedin profile](https://www.linkedin.com/in/joergschoenau/) will have to suffice for the time being.
 
-[Get in touch](jschoenau@gmail.com)
+[Get in touch](mailto:jschoenau@gmail.com)
