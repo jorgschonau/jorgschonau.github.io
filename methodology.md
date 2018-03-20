@@ -1,7 +1,10 @@
 # Methodology
 
 ## Crime and Sentiment
-Below I'll elaborate more about the sentiment analysis project, the steps I've done, problems I encountered and any learnings. 
+Below I'll elaborate more about the sentiment analysis project, the steps I've done, problems I encountered and any learnings.
+
+## Github
+You'll find the R code here: [https://github.com/jorgschonau/finalproject/blob/master/TextAnalysis](https://github.com/jorgschonau/finalproject/blob/master/TextAnalysis)
 
 ## What are actually sentiments?
 Sentiment detection (or sentiment analysis) is a sub area of text mining and refers to the automatic evaluation of texts with the objective of detecting whether opinions/ feelings expressed within a text are positive or negative. Even though sentiment is often framed as binary distinction (so positive vs. negative), it can be more fine grained. For example it is also possible to try and identify the specific emotions within a text (for example fear, joy, trust or sadness).
@@ -107,7 +110,7 @@ Some books I found directly in a txt format on [Project Gutenberg](http://www.gu
 charlieandthechocolatefactory_raw <- read_lines("charlieandthechocolatefactory.txt") # read txt file
 ```
 
-I then converted the raw text into the tidy text format. Basically it's a table with one token (or meaningful word) per row. This requires follwing steps: 
+I then converted the raw text into the tidy text format. Basically it's a table with one token (aka meaningful word) per row. This requires follwing steps: 
 
 ```
 # cleaning & converting into tidytext
@@ -144,7 +147,7 @@ The cleaned up text is then stripped off all stopwords (stop_words is part of th
  unnest_tokens(word, text) %>%
  anti_join(stop_words)
 ```
-In hindsight, using the entire stop_words list seems to be somewhat agressive. As a consequence, words that carry sentiments, such as "interesting" or "young", are being excluded. If I was to start a similar project again, I would probably sub set the stop_words and only use 1 or 2 of the dictionaries.
+In hindsight, using the entire stop_words list seems to be somewhat excessive. As a consequence, words that carry sentiments, such as "interesting" or "young", were being excluded. It actually turned out later that removing stopwords wans't necessary at all as stopwords wouldn't interfere in the sentiment scoring. So if I was to start a similar project again, I would either refrain from removing stopwards or at least create a sub set the stop_words and only use 1 or 2 of the dictionaries.
 
 ## Tidytext Format
 
