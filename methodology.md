@@ -149,7 +149,7 @@ The cleaned up text is then stripped off all stopwords (stop_words is part of th
 tidy_orwell1984 <- orwell1984 %>% unnest_tokens(word, text) %>% anti_join(stop_words)
 ```
 
-In hindsight, using the entire stop_words list seems to be somewhat excessive. As a consequence, words that carry sentiments, such as "interesting" or "young", were being excluded. It actually turned out later that removing stopwords wasn't necessary at all as stopwords don't interfere in the sentiment scoring. So if I was to start a similar project again, I would either refrain from removing stopwords alltogether or oterweise I would create a sub set the stop_words and only use 1 or 2 of the dictionaries.
+In hindsight, using the entire stop_words list seems to be somewhat excessive. As a consequence, words that carry sentiments, such as "interesting" or "young", were being excluded. It actually turned out later that removing stopwords wasn't necessary at all as stopwords don't interfere in the sentiment scoring. So if I was to start a similar project again, I would either refrain from removing stopwords alltogether or otherweise I would create a sub set the stop_words and only use 1 or 2 of the dictionaries.
 
 ## Tidytext Format
 
