@@ -157,7 +157,7 @@ So after executing the steps above, the text will be transformed into a token ba
 
 >These two very old people are the father and mother of Mr Bucket. Their names are Grandpa Joe and Grandma Josephine.
 
-are being transformed this format:
+are being transformed into this format:
 
 | Line Number  | Chapter     | Word      |
 |-------------:|:-----------:|:---------:|
