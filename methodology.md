@@ -172,5 +172,5 @@ are being transformed into this format:
 |  7           | 1           | josephine |
 
 
-NEXT
+[NEXT-Issues & ambiguities](sentiments_issues.md)
 
