@@ -1,7 +1,7 @@
 # Methodology
 
 ## Crime and Sentiment
-Below I'll elaborate more about the sentiment analysis project, the steps I've done, problems I encountered and any learnings.
+Below I'll elaborate more about the sentiment analysis project, the steps I've done, problems I encountered, things I learnt etc.
 
 ## Github
 You'll find the R code here: [https://github.com/jorgschonau/finalproject/blob/master/TextAnalysis](https://github.com/jorgschonau/finalproject/blob/master/TextAnalysis)
@@ -65,7 +65,7 @@ The NRC dictionary evaluates the text above like following:
 | debt          | -1            |
 | afraid        | -1            |
 
-That's more like it: 8x negative vs 1x positive, so a total score of -7, which does match with the atmosphere of doom & gloom Dostojewski builds up so masterfully right from the start.
+That's more like it: 8x negative vs 1x positive, so a total score of -7, which does match with the atmosphere of doom & gloom Dostojewski builds up so masterfully right from the first page onwards.
 
 As you might already suspect, sentiment analysis is far from being perfect and the word-by-word approach is indeed somewhat crude. As with any automatic analysis of language, there are bound to be errors in the results. It also can't tell you why a writer is feeling a certain way and it also fails to pick up irony, humour etc. Another big problem of the dictionary based, word-by-word evaluation is that it fails to consider negations. So a sentence like "I am having a great day" would receive the same score as "I am __not__ having a great day". The sentence-based SentimentR package can capture simple negations like that, but would still fail to detect the meaning of a sentence like "I am __far from__ having a great day".
 
@@ -149,7 +149,7 @@ The cleaned up text is then stripped off all stopwords (stop_words is part of th
 tidy_orwell1984 <- orwell1984 %>% unnest_tokens(word, text) %>% anti_join(stop_words)
 ```
 
-In hindsight, using the entire stop_words list seems to be somewhat excessive. As a consequence, words that carry sentiments, such as "interesting" or "young", were being excluded. It actually turned out later that removing stopwords wasn't necessary at all as stopwords don't interfere in the sentiment scoring. So if I was to start a similar project again, I would either refrain from removing stopwords alltogether or otherweise I would create a sub set the stop_words and only use 1 or 2 of the dictionaries.
+In hindsight, using the entire stop_words list seems to be somewhat excessive. As a consequence, words that do carry sentiments, such as "interesting" or "young", have been excluded. It actually turned out later that removing stopwords wasn't necessary at all as stopwords don't interfere in the sentiment scoring. So if I was to start a similar project again, I would either refrain from removing stopwords alltogether or otherweise I would create a sub set of the stopwords dictionary and only use 1 or 2 of the sub dictionaries.
 
 ## Tidytext Format
 
