@@ -173,5 +173,8 @@ are being transformed into this format:
 |  7           | 1           | josephine |
 
 
+As you can see, "old" has been removed, it must have matched with the extended stopword dictionary I used. So this is yet another indicator that the stopword list I used was somewhat overly aggressive.
+
+
 [NEXT-Issues & ambiguities](sentiments_issues.md)
 
