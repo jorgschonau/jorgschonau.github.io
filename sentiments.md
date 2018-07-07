@@ -1,13 +1,15 @@
 # Sentiment Analysis
 
-For my final project at [Ubiqum Code Academy](https://goo.gl/aEmoTQ) I analysed a number of classic literature books, namely:
+For my final project at [Ubiqum Code Academy](https://www.ubiqum.com/courses/data-analyst-big-data-berlin/) I analysed a number of classic literature books with the aim of visualizing the content, or rather the sentiments (or the mood/ feelings if you will) associated with the text. The books I used for this analysis:
 
 - [1984 by George Orwell](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four)
 - [Crime and Punishment by Fyodor Dostoevsky](https://en.wikipedia.org/wiki/Crime_and_Punishment)
 - [Charlie and the Chocolate Factory by Roald Dahl](https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory)
 - [Hitchhiker's Guide to the Galaxy by Douglas Adams](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy)
 
-You'll find a number of visualisations based on the output data under the link further below.
+I choose two books with a rather upbeat vibe and two books on the rather sombre end of the spectrum (as you probably can already tell by titles). Mainly because I wanted to see how sentiment packages score the content of each book.
+
+You'll find a number of visualisations based on the output data under the links further below.
 
 ## The Project
 
