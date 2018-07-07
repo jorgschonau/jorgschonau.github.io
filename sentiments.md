@@ -1,4 +1,5 @@
-# Sentiment Analysis
+# Sentiment Analysis 
+## aka Crime & Sentiment
 
 For my final project at [Ubiqum Code Academy](https://www.ubiqum.com/courses/data-analyst-big-data-berlin/) I analysed a number of classic literature books with the aim of visualizing the content, or rather the sentiments (or the mood/ feelings if you will) associated with the text. The books I used for this analysis:
 
