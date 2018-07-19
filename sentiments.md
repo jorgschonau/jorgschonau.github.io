@@ -8,7 +8,7 @@ For my final project at [Ubiqum Code Academy](https://www.ubiqum.com/courses/dat
 - [Charlie and the Chocolate Factory by Roald Dahl](https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory)
 - [Hitchhiker's Guide to the Galaxy by Douglas Adams](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy)
 
-I chose two books with a rather upbeat vibe and two books on the rather sombre end of the spectrum (as you probably can already tell by titles). Main reason being that I wanted to see how sentiment packages score the content of each book.
+I chose two books with a rather upbeat vibe and two books on the rather sombre end of the spectrum (as you probably can already tell by the titles). Main reason being that I wanted to see how the various sentiment packages score the content of each book and inhowfar the outputs differ.
 
 You'll find a number of visualisations based on the output data under the links further below.
 
