@@ -6,9 +6,10 @@
 
 Index 75 shows a peak for the sentiment "joy", however, when investigating closer, this section of the book contains an old childhood memory that is still haunting Winston.
 
-When he is still a child, he steals a small piece chocolate under the eyes of his starving mother and his baby sister and runs away. When he comes back hours later, both mother and sister are gone, never to be seen again.
+When he was young child, Winston grabs a small piece chocolate under the eyes of his starving mother and his baby sister and runs away. When he comes back hours later, both his mother and sister are gone, never to be seen again.
 
-precious, chocolate, mother, food (as in the lack of food, rationing of food, the fighting over food ...)
+Examples of words would contributed to a high score for the sentiment "joy":
+precious, chocolate, mother, food (as in the "lack of food", "rationing of food", the fighting over food ...)
 
 
 
