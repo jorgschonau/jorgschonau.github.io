@@ -2,7 +2,7 @@
 
 ### Lots of "Joy" in an old Childhood Trauma
 
-![Emotion "Joy" even though there is hardly anything joyful]({{site.baseurl}}//Screen%20Shot%202018-03-28%20at%2011.51.58.png)
+![Emotion "Joy" even though there is hardly anything joyful](https://github.com/jorgschonau/jorgschonau.github.io/blob/master/Screen%20Shot%202018-03-28%20at%2011.51.58.png?raw=true)
 
 Index 75 shows a peak for the sentiment "joy", however, when investigating closer, this section of the book contains an old childhood memory that is still haunting Winston.
 
