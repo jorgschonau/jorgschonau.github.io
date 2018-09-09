@@ -1,7 +1,7 @@
 ---
 layout: post
 description: DataBarcelona - here you will my sentiment project for the Ubiqum Code Academy as well as many other fascinating projects
-title: Welcome to DataBarcelona! Jörg Schönau
+title: Welcome to DataBarcelona!
 ---
 
 
