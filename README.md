@@ -1,3 +1,9 @@
+---
+layout: post
+description: DataBarcelona - here you will my sentiment project for the Ubiqum Code Academy as well as many other fascinating projects
+---
+
+
 ## Welcome to DataBarcelona!
 
 Here you will find my final project for Ubiqum Code Academy and soon many more fascinating things! 
