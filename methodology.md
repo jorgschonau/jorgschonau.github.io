@@ -13,7 +13,7 @@ Some examples of applications for sentiment analysis include:
 
 - Analyzing social media discussions (such as Twitter) around certain topics 
 - Determining whether product reviews (for example on Amazon) are positive or negative
-- Evaluating opions expressed in newspaper articles regarding certain topics or persons
+- Evaluating opinions expressed in newspaper articles regarding certain topics or persons
 
 In nutshell, what happens during a sentiment analysis is that a dictionary containing a range of words (for instance, the NRC dictionary has over 13,900 entries) classified as positive or negative is being matched against a text of your choice. 
 To illustrate, let's take the first sentence of the book 1984 as an example:
