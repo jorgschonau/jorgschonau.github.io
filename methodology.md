@@ -129,7 +129,7 @@ charlieandthechocolatefactory <- charlieandthechocolatefactory_df %>%
  - tolower (part of base R): all characters into lower case
  - replace_word_elongation (part of textclean package): Replacing elongations like: "I said heyyy!', "Wwwhhatttt!", or "Nooooooooo!"
  - replace_contraction (part of textclean package): Replacing contractions such as "can't", didn't", "won't" by the full form ("can not", "did not", "will not")
- - strwrap part of base R): wrapping character strings to format paragraphs after a given length of characters
+ - strwrap (part of base R): wrapping character strings to format paragraphs after a given length of characters
 
 Below the cleanup function:
 
