@@ -14,7 +14,7 @@ You'll find a number of visualisations based on the output data under the links 
 
 ## The Project
 
-Sentiment analyses is one of the standard methods for analysing any kinds of texts with R. Typical applications for text analysis are for example analysing tweets, evaluating user reviews (e.g. on Amazon), gathering what newspapers are saying on specific topics or getting a picture of the trending topics within the webosphere (forums such as Reddit, blogs, instagram etc).
+Sentiment analyses is one of the standard methods for analysing any kinds of texts with R. Typical applications for text analysis are for example analysing tweets, evaluating user reviews (e.g. on Amazon), gathering what newspapers are saying on specific topics or also for getting a picture of the trending topics within the webosphere as a whole (forums such as Reddit, blogs, instagram etc).
 
 I'll explain here more about the details of the project, the dictionaries I used etc. But bascially I wanted to see how far one can use the standard dictionaries within R (NRC, Bing, AFINN & SentimentR) to analyse content (in this case a number of well known books) and in how far the results differ.
 
